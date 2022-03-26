@@ -1,0 +1,50 @@
+@import "vars";
+
+.hero {
+    padding: 140px 0 89px;
+    text-align: center;
+    background-image: url("../images/bg-hero.jpg");
+    min-height: 544px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $light;
+    text-transform: uppercase;
+
+    &__title {
+        margin: 0 0 45px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5em;
+    }
+
+    &__info {
+        display: inline-block;
+        margin: 0 0 45px;
+        white-space: nowrap;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 900px;
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    &__info-secondary {
+        margin: 0 0 45px;
+        font-family: $secondary-font;
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 30px;
+        line-height: 30px;
+    } 
+
+    &__link {
+        transition: all 0.3s;
+        &:hover {
+            background-color: $accent;
+            border-color: $accent;
+        }
+    }
+}
