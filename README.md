@@ -1,1 +1,1 @@
-# brandly https://github.com/Erlando05/brandly
+# brandly https://erlando05.github.io/brandly/
