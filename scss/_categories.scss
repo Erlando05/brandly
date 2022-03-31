@@ -1,0 +1,118 @@
+@import "vars";
+
+.categories {
+    // margin-top: 186px;
+}
+
+.Men {
+    background-image: url(../images/categor-men.jpg);
+    list-style-type: none;
+    // position: absolute;
+    width: 350px;
+    height: 419px;
+    left: 165px;
+    top: 855px;
+}
+
+.Men-link {
+    position: absolute;
+    width: 76px;
+    height: 40px;
+    left: 370px;
+    top: 1020px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.Women {
+    background-image: url(../images/women.jpg);
+    list-style-type: none;
+    margin: 0 30px;
+    // position: absolute;
+    width: 350px;
+    height: 419px;
+    left: 545px;
+    top: 851px;
+}
+
+.Women-link {
+    position: absolute;
+    width: 133px;
+    height: 40px;
+    left: 730px;
+    top: 1020px;
+    font-family: '$main-font';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.Accessories {
+    background-image: url(../images/Accessoriesjpg.jpg);
+    list-style-type: none;
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 418px;
+    left: 906px;
+    top: 856px;
+}
+
+.Accessories-link {
+    position: absolute;
+    width: 196px;
+    height: 40px;
+    left: 1039px;
+    top: 1020px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px; 
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.ctg {
+    margin-top: 58px;
+}
+
+
+.categories__list {
+    margin-top: 56px;
+    display: flex;
+}
+
+// .Men-link {
+//     // position: absolute;
+//     width: 76px;
+//     height: 40px;
+//     left: 303px;
+//     top: 1045px;
+//     font-family: 'Open Sans';
+//     font-style: italic;
+//     font-weight: 300;
+//     font-size: 40px;
+//     line-height: 40px;
+//     text-transform: capitalize;
+//     color: #FFFFFF;
+//     text-decoration: none;
+
+// }
+
+
+
+
+
+
+

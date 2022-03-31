@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: "Lato", sans-serif;
   font-size: 18px;
@@ -94,7 +95,6 @@ body {
 .hero__info {
   display: inline-block;
   margin: 0 0 45px;
-  white-space: nowrap;
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 900px;
@@ -145,4 +145,222 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: 2px solid #ffffff;
+}
+
+.Men {
+  position: relative;
+  background-image: url(../images/categor-men.jpg);
+  list-style-type: none;
+  width: 350px;
+  height: 419px;
+  left: 0px;
+  top: 0px;
+}
+
+.Men-link {
+  position: absolute;
+  width: 76px;
+  height: 40px;
+  top: 190px;
+  left: 138px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.Women {
+  position: relative;
+  background-image: url(../images/women.jpg);
+  list-style-type: none;
+  margin: 0 30px;
+  width: 350px;
+  height: 419px;
+  left: 0px;
+}
+
+.Women-link {
+  position: absolute;
+  width: 133px;
+  height: 40px;
+  left: 110px;
+  top: 190px;
+  font-family: "$main-font";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.Accessories {
+  position: relative;
+  background-image: url(../images/Accessoriesjpg.jpg);
+  list-style-type: none;
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 418px;
+  left: 0px;
+  top: 0px;
+}
+
+.Accessories-link {
+  position: absolute;
+  width: 196px;
+  height: 40px;
+  left: 82px;
+  top: 190px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.ctg {
+  margin-top: 58px;
+}
+
+.categories__list {
+  margin-top: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.over-categories {
+  z-index: 1;
+}
+.over-categories::after {
+  width: 350px;
+  height: 419px;
+  left: 165px;
+  top: 855px;
+  background: rgba(34, 37, 51, 0.4);
+}
+
+.from {
+  /* position: absolute; */
+  width: 251px;
+  height: 40px;
+  margin-left: 466px;
+  margin-top: 88px;
+  margin-bottom: 70px;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: capitalize; 
+  color: #333333;
+}
+
+.blog__item {
+  /* position: absolute; */
+width: 540px;
+height: 594px;
+left: 165px;
+top: 1504px;
+}
+
+.german {
+  margin-right: 30px;
+}
+
+.blog__item-title {
+  padding-top: 20px;
+  color: #DC0000;
+}
+
+.blog__list {
+  padding-right: 30px;
+  display: flex;
+}
+
+.blog__item-leed {
+  /* position: absolute; */
+  width: 540px;
+  height: 88px;
+  left: 165px;
+  top: 1960px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #9A9A9A;
+}
+
+.blog__item-details {
+  /* position: absolute; */
+  width: 215px;
+  height: 22px;
+  left: 165px;
+  top: 1909px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.blog__item-link {
+  display: inline-block;
+  border: 1px solid #333333;
+  position: absolute;
+  width: 144px;
+  height: 30px;
+  text-decoration: none;
+  text-align: center;
+  padding: 4px 25px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #333333;
+  white-space: nowrap;
+} 
+
+.footer {
+  position: relative;
+  flex: 1 0 auto;
+  width: 1440px;
+  height: 157px;
+  left: auto;
+  background-image: url(../images/footer-img.jpg);
+  background-size: cover;
+  margin-top: 86px;
+  background-position: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.paragraph {
+  position: absolute;
+  width: 209px;
+  height: 27px;
+  left: 177px;
+  padding-top: 65px;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #FFFFFF;
 }
